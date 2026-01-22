@@ -11,3 +11,5 @@ lerna-debug.log*
 out
 coverage
 dist
+apps/kbo-parser/files/*
+!apps/kbo-parser/files/NACEBEL_2025.csv

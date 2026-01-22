@@ -29,6 +29,11 @@ pnpm --filter kbo-parser run import   # let op: gebruik 'run' om de script aan t
 - Laadt `NACEBEL_2025.csv` als categorie `NACEBEL_2025` in `kbo.code` (NL/FR/DE/EN labels).
 - Print tellingen voor enterprise, establishment, address, contact, activity.
 
+## Data bron
+- Haal de officiële KBO open data op via: https://kbopub.economie.fgov.be/kbo-open-data/login?lang=nl
+- Plaats de gedownloade CSV's in `apps/kbo-parser/files/`. Alles daar wordt genegeerd in git behalve `NACEBEL_2025.csv`.
+- Draai daarna `pnpm kbo:import` om de data in Postgres te laden.
+
 ## Handige SQL checks (psql)
 ```sql
 select count(*) from kbo.enterprise;
