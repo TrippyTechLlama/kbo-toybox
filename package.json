@@ -1,0 +1,25 @@
+{
+  "name": "kbo-toybox",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/kbo-parser",
+    "apps/server",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "concurrently -c \"cyan,magenta\" -n \"server,web\" \"pnpm --filter server start:dev\" \"pnpm --filter web dev\"",
+    "dev:server": "pnpm --filter server start:dev",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm --filter server build && pnpm --filter web build",
+    "build:server": "pnpm --filter server build",
+    "build:web": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "kbo:import": "pnpm --filter kbo-parser run import"
+  },
+  "packageManager": "pnpm@8.15.5",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

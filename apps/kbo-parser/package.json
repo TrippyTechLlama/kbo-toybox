@@ -1,0 +1,13 @@
+{
+  "name": "kbo-parser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "import": "node import.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "pg-copy-streams": "^6.0.5"
+  }
+}
