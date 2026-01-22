@@ -2,6 +2,10 @@
 
 Full-stack starter that pairs a NestJS API with a Next.js app router frontend, managed via pnpm workspaces.
 
+This is a proof-of-concept built in a few hours with modern AI tooling (ChatGPT + Codex) to show what's possible; for demo purposes only.
+
+License: MIT (see LICENSE).
+
 ## Project structure
 - `apps/server`: NestJS HTTP API (listens on port 4000 by default)
 - `apps/web`: Next.js application (app router, served on port 3000)
