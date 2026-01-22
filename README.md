@@ -40,3 +40,8 @@ License: MIT (see LICENSE).
 - (Optional) download KBO CSV's into `apps/kbo-parser/files/` and run `pnpm kbo:import`
 - Start both apps: `pnpm dev` (web on http://localhost:3000, API on http://localhost:4000)
 - If needed, set `API_URL` in `apps/web/.env.local` to point the frontend at your API
+
+## Screenshots
+*(Replace with your own)*  
+![Companies page](docs/screenshots/companies.png)  
+![Detail page](docs/screenshots/detail.png)

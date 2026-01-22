@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <header className="site-header">
           <div className="container header-inner">
-            <div className="brand">kbo-toybox</div>
+            <a className="brand" href="/">kbo-toybox</a>
             <nav>
               <a href="/">Home</a>
               <a href="/companies">Companies</a>
