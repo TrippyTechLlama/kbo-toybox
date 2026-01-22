@@ -2,7 +2,7 @@
 
 Full-stack starter that pairs a NestJS API with a Next.js app router frontend, managed via pnpm workspaces.
 
-This is a proof-of-concept built in a few hours with modern AI tooling (ChatGPT + Codex) to show what's possible; for demo purposes only. Focused on Belgian KBO data.
+This is a proof-of-concept built in ~2 hours with modern AI tooling (ChatGPT + Codex) to show what's possible; for demo purposes only. Focused on Belgian KBO data; expect rough edges (not production-clean), it's just for fun.
 
 License: MIT (see LICENSE).
 
